@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input[type="number"], button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+  background-color: lightgoldenrodyellow;
+  width: 205px;
+}
+
+button {
+  background-color: green;
+  width: 205px;
+}
+
+
+  button:hover {
+    background-color: greenyellow;
+  }
+
+  #images {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #images img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #error {
+    color: red;
+    margin-top: 20px;
+  }

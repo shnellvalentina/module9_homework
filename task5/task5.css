@@ -1,0 +1,41 @@
+
+.wrap{
+background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1440px;
+    
+}
+   input{
+    width: 240px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin: 10px;
+    background-color: lemonchiffon;
+   }
+    .button{
+        margin-left: 10px;
+        background-color: aqua;
+        border: none;
+        border-radius: 10px;
+        width: 250px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    button:hover {
+        background-color: palevioletred;
+      }
+    .result{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 1400px;
+        
+    }
